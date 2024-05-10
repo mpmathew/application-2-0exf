@@ -19,17 +19,17 @@ deploy:
 volumes:
   - claim: prefect-data
     mount: /root/.prefect/
-    name: prefect_data
+    name: prefect-data
     size: 5Gi
     mode: ReadWriteMany
   - claim: insights-testcase-runs
     mount: /root/exf_insights/app/project/components/test360/static/testcase_runs
-    name: testcase_runs
+    name: testcase-runs
     size: 5Gi
     mode: ReadWriteMany
   - claim: application-data
     mount: /root/exf_insights/app/project/static/
-    name: static_data
+    name: static-data
     size: 5Gi
     mode: ReadWriteOnce
     
