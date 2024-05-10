@@ -158,4 +158,4 @@ properties:
       vault: SF_PASSWORD
     AZURE_SQL_PASSWORD:
       vault: AZURE_SQL_PASSWORD
-    revision : 49
+    revision : 50
