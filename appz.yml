@@ -19,7 +19,7 @@ deploy:
 volumes:
   - claim: prefect-data
     mount: /root/.prefect/
-    name: data
+    name: prefect_data
     size: 5Gi
     mode: ReadWriteMany
   - claim: insights-testcase-runs
